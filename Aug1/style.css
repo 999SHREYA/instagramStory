@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#story {
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+#storian {
+    height: 150px;
+    width: 360px;
+    border-bottom: 2px solid blue;
+    margin-left: 20px;
+    white-space: nowrap;
+overflow-y: hidden; 
+margin-top: 50px;
+margin-bottom: 20px;
+}
+.card {
+    height: 100px;
+    width:100px ;
+    display: inline-block;
+    margin-left: 5px;
+    border: 2px solid aqua;
+    border-radius: 100%;
+    overflow: hidden;
+}
+#storian::-webkit-scrollbar{
+    display: none;
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+}
